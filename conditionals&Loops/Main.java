@@ -22,7 +22,7 @@ public class Main{
     else{
         salary+= 500;
     }
-    }
+    
         System.out.println("Your salary is: " + salary);
 
     }
