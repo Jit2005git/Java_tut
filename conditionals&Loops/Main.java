@@ -14,6 +14,15 @@ public class Main{
         //Multiple if else statements
 
     if(salary > 10000){
+        salary+= 2000;
+    }
+    else if(salary>5000){
+        salary+= 1000;
+    }
+    else{
+        salary+= 500;
+    }
+    }
         System.out.println("Your salary is: " + salary);
 
     }
