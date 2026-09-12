@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String [] args){
         
-        int salary = 10000;
+        int salary = 15000;
         // if(salary > 10000){
         //     salary = salary + 2000;
         //     System.out.println("You are a rich person");
