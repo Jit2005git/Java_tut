@@ -10,8 +10,9 @@ public class loops{
 
 //print number from 1 to n
 Scanner in = new Scanner(System.in);
+System.out.println("Enter a number: ");
 int n=in.nextInt();
-System.out.println("The value of n is: " + n);
+
 printNumbers(n);
 
     }
