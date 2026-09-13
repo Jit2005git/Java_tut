@@ -21,6 +21,12 @@ for (int i=1;i<=n;i++){
     System.out.println("The value of i is: " + i);
      
 }
-
-    }
+// while loop 
+System.out.println("Using while loop");
+int num=1;
+while(num<=n){
+    System.out.println("The value of num is: " + num);
+    num++;
+}
+}
 }
