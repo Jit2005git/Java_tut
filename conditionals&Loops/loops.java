@@ -17,18 +17,27 @@ printNumbers(n);
 
     }
     static void printNumbers(int n){
-for (int i=1;i<=n;i++){
-    System.out.println("The value of i is: " + i);
+// for (int i=1;i<=n;i++){
+//     System.out.println("The value of i is: " + i);
      
-}
+// }
 // while loop 
-System.out.println("Using while loop");
-int num=1;
-while(num<=n){
-    System.out.println("The value of num is: " + num);
-    num++;
+// System.out.println("Using while loop");
+// int num=1;
+// while(num<=n){
+//     System.out.println("The value of num is: " + num);
+//     num++;
+// }
+do{
+    
+    System.out.println("The value of n is: " + n);
+    n++;
+
+
 }
+while(n<=5);
+    }
 }
-}
+
 
 
