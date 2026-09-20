@@ -8,5 +8,15 @@ public class largest{
         int b=in.nextInt();
         System.out.print("Enter the third number: ");
         int c=in.nextInt();
+        //Q: Find the largest pf 3 numbers
+        int max=a;
+        if(b>max){
+            max=b;
+        }
+        if(c>max){
+            max=c;
+        }
+        System.out.println("The largest number is: " + max);
+
     }
 }
