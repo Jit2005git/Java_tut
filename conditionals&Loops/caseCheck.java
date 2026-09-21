@@ -6,7 +6,15 @@ public class caseCheck {
     // String word="hello";
     // // System.out.println("The character is: " + ch);
     // System.out.println("The character is: " + word.charAt(2));
-        
+        if(ch>='a' && ch<='z'){
+            System.out.println("Lowercase");
+        }
+        else if(ch>='A' && ch<='Z'){
+            System.out.println("Uppercase");
+        }
+        else{
+            System.out.println("Invalid input");
+        }
 
     }
 }
