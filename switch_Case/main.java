@@ -20,6 +20,9 @@ public class main {
             case "mango":
                 System.out.println("This is a tropical fruit Mango ");
                 break;
+                case "orange":
+                System.out.println("This is a citrus fruit Orange ");
+                break;
             default:
                 System.out.println("Unknown fruit PLease Enter a valid fruit name");
         }
