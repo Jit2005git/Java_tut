@@ -1,13 +1,17 @@
-package Function;
+import java.util.Scanner;
 
 public class sum {
     public static void main(String[] args) {
+        sum();
         
     }
-    void sum(){
+    static void sum(){
+        Scanner in = new Scanner(System.in);
         System.out.println("Enter first number :");
-        System.out.println("The sum is: " + (a+b));
-
+        int num1=in.nextInt();
+        System.out.println("Enter second number :");
+        int num2=in.nextInt();
+        System.out.println("The sum is: " + (num1+num2));
     }
 
 }
