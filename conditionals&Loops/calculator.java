@@ -27,6 +27,7 @@ public class calculator {
         else{
             System.out.println("Invalid operator");
         }
+    
         
     }
 }
