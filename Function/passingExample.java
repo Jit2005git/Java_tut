@@ -11,7 +11,9 @@ public class passingExample {
         System.out.println(personalised);
     }
 
-    static String myGreet(String name){
-        return "Hello, " + name + "!";
+    static String myGreet(String naam){
+        return "Hello, " + naam + "!";
+        
     }
+    
 }
