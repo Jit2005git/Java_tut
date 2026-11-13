@@ -6,8 +6,17 @@ public class scope {
     swap(a, b);
     System.out.println(a +""+ b);
     String name = "Iron man";
-    greet(name);
-    
+    changeName(name);
+    System.out.println(name);
 
- }    
+
+ }  
+ static void changeName(String name){
+    name = "Captain America";
+ }
+ static void swap(int a, int b){
+    int temp = a;
+    a = b;
+    b = temp;
+ }
 }
