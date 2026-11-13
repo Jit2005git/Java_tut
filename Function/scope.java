@@ -4,7 +4,7 @@ public class scope {
     int a = 10;
     int b = 20;
     swap(a, b);
-    System.out.println(a +""+ b);
+    System.out.println(a +" "+ b);
     String name = "Iron man";
     changeName(name);
     System.out.println(name);
