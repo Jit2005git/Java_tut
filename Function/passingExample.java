@@ -14,6 +14,7 @@ public class passingExample {
     static String myGreet(String naam){
         return "Hello, " + naam + "!";
         
+        
     }
     
 }
