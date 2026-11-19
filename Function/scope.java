@@ -20,13 +20,16 @@ public class scope {
 //     num2 = temp;
 {
     a=78;
+    int c = 90;
 
 }
-System.out.println(a +" "+ b);
+ System.out.println(c);
 
  }
- static void rabdom(int marks){
-    int num= 100; 
+ static void random(int marks){
+    int num= 67;
+    System.out.println(num);
+    System.out.println(marks);
  }
 
 }
