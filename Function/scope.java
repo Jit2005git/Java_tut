@@ -18,6 +18,7 @@ public class scope {
 //     int temp = num1;
 //     num1 = num2;
 //     num2 = temp;
+//this change will only be valid in this function scope only and will not affect the main function scope
 {
     a=78;
     int c = 90;
