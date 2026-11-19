@@ -5,7 +5,7 @@ public class shaddowing {
         int x = 90;
         System.out.println(x);
         fun();
-        
+          
     }
     static void fun(){
         System.out.println(x);
